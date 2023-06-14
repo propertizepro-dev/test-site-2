@@ -7,10 +7,10 @@ export default function HeroSection() {
       <div className="w-full max-w-6xl flex gap-10 items-center py-10" style={{height: "calc(100dvh - 123px)"}}>
         <div className="w-1/2 flex flex-col gap-2">
           <Heading>
-            Seamless and stress-free home buying and selling — that's what we
-            deliver
+            {`Seamless and stress-free home buying and selling — that's what we
+            deliver`}
           </Heading>
-          <p className="text-zinc-100 text-2xl">Find the home you've been waiting for, or find the perfect buyer for your home. No matter what you need, we've got you covered.</p>
+          <p className="text-zinc-100 text-2xl">{`Find the home you've been waiting for, or find the perfect buyer for your home. No matter what you need, we've got you covered.`}</p>
           <Button>Find Your Dream Home</Button>
         </div>
         <div className="flex flex-col items-start w-1/2 relative gap-2">
